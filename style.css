@@ -56,7 +56,7 @@ h1, .skill__list h3, .experience__cards h4 {
 
 
 .introduction {
-  height: calc(100vh - 80px);
+  height: 100%;
 }
 .introduction__title {
   margin-bottom: 2rem;
@@ -192,6 +192,9 @@ h1, .skill__list h3, .experience__cards h4 {
     font-size: large;
   }
 
+  .introduction {
+    height: calc(100vh - 80px);
+  }
   .introduction h1, .skills h1, .experience h1 {
     font-size: 3.5rem;
   }
